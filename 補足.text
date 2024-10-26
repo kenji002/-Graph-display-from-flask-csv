@@ -1,0 +1,13 @@
+ステージング
+git add .
+コミット
+git commit -m "コミットメッセージ"
+
+リモートリポジトリへのプッシュ
+git push origin main
+
+リモートリポジトリの変更を取得
+git pull origin main
+
+パッケージインストールの書き込み
+pip freeze > requirements.txt 
