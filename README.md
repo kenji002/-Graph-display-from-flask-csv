@@ -36,7 +36,7 @@
 **フォルダ構成**
 Graph-display-from-flask-csv/
 │
-├── app.py                  # メインアプリケーションファイル　　
+├── app.py                  # メインアプリケーションファイル
 ├── requirements.txt        # 必要なパッケージ一覧
 ├── templates/              # HTMLテンプレートフォルダ
 │   ├── upload.html         # アップロードフォーム
@@ -47,3 +47,20 @@ Graph-display-from-flask-csv/
 このプロジェクトはMITライセンスのもとで公開されています。詳しくは、LICENSEファイルをご覧ください。
 作者
 kenji002
+.
+└── Edit me to generate/
+    ├── a/
+    │   └── nice/
+    │       └── tree/
+    │           ├── diagram!
+    │           └── :)
+    └── Use indentation/
+        ├── to indicate/
+        │   ├── file
+        │   ├── and
+        │   ├── folder
+        │   └── nesting.
+        └── You can even/
+            └── use/
+                ├── markdown
+                └── bullets!
