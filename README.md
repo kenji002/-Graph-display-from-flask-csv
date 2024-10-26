@@ -35,7 +35,7 @@
 
 **フォルダ構成**
 Graph-display-from-flask-csv/  
-&emsp; ├── app.py &emsp;&emsp;&emsp;&emsp; # メインアプリケーションファイル  
+&emsp; ├── app.py &emsp;&emsp;&emsp;&emsp;;&emsp;&emsp; # メインアプリケーションファイル  
 &emsp; ├── requirements.txt &emsp; # 必要なパッケージ一覧  
 &emsp; ├── templates/ &emsp;&emsp;&emsp;&emsp; # HTMLテンプレートフォルダ  
 &emsp;&emsp;&emsp; ├── upload.html &emsp;&emsp; # アップロードフォーム  
