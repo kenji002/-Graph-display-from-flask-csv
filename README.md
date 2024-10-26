@@ -35,16 +35,15 @@
 
 **フォルダ構成**
 project/
-│
-├── app.py               &emsp;&emsp;&emsp;&emsp;     # メインアプリケーションファイル
-├── requirements.txt     &emsp;&emsp;                 # 必要なパッケージ一覧
-├── templates/           &emsp;&emsp;&emsp;           # HTMLテンプレートフォルダ
-│   ├── upload.html      &emsp;&emsp;&emsp;&emsp;     # アップロードフォーム
-│   └── plot.html        &emsp;&emsp;&emsp;&emsp;     # グラフ表示用テンプレート
-└── utils/               &emsp;&emsp;&emsp;           # ユーティリティファイル
-    ├── __init__.py      &emsp;&emsp;&emsp;&emsp;     # 空ファイル（パッケージとして認識させる）
-    └── plot_utils.py    &emsp;&emsp;&emsp;&emsp;     # プロット生成用の関数
-
+&emsp;│
+&emsp;├── app.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# メインアプリケーションファイル
+&emsp;├── requirements.txt&emsp;&emsp;&emsp;&emsp;&emsp;# 必要なパッケージ一覧
+&emsp;├── templates/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# HTMLテンプレートフォルダ
+&emsp;│&emsp;&emsp;├── upload.html&emsp;&emsp;&emsp;&emsp;# アップロードフォーム
+&emsp;│&emsp;&emsp;└── plot.html&emsp;&emsp;&emsp;&emsp;&emsp;# グラフ表示用テンプレート
+&emsp;└── utils/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# ユーティリティファイル
+&emsp;&emsp;&emsp;&emsp;├── __init__.py&emsp;&emsp;&emsp;&emsp;# 空ファイル（パッケージとして認識させる）
+&emsp;&emsp;&emsp;&emsp;└── plot_utils.py&emsp;&emsp;&emsp;# プロット生成用の関数
 
 **ライセンス**
 このプロジェクトはMITライセンスのもとで公開されています。詳しくは、LICENSEファイルをご覧ください。
