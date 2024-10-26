@@ -34,17 +34,24 @@
 2. アップロードされたデータに基づいてグラフが生成され、表示されます。
 
 **フォルダ構成**
-project/
-&emsp;│
-&emsp;├── app.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# メインアプリケーションファイル
-&emsp;├── requirements.txt&emsp;&emsp;&emsp;&emsp;&emsp;# 必要なパッケージ一覧
-&emsp;├── templates/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# HTMLテンプレートフォルダ
-&emsp;│&emsp;&emsp;├── upload.html&emsp;&emsp;&emsp;&emsp;# アップロードフォーム
-&emsp;│&emsp;&emsp;└── plot.html&emsp;&emsp;&emsp;&emsp;&emsp;# グラフ表示用テンプレート
-&emsp;└── utils/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# ユーティリティファイル
-&emsp;&emsp;&emsp;&emsp;├── __init__.py&emsp;&emsp;&emsp;&emsp;# 空ファイル（パッケージとして認識させる）
-&emsp;&emsp;&emsp;&emsp;└── plot_utils.py&emsp;&emsp;&emsp;# プロット生成用の関数
-
+``` 
+.
+└── Graph-display-from-flask-csv/ 
+    ├── .venv/
+    ├── static/
+    │   ├── images
+    │   └── utils/
+    │       ├── __pycache__
+    │       └── plot_utils.py
+    ├── templates/
+    │   ├── plot.html
+    │   └── upload.html    
+    ├── test.csv
+    ├── README.md
+    ├── app.py
+    ├── 補足.text
+    └── requirements.txt
+```
 **ライセンス**
 このプロジェクトはMITライセンスのもとで公開されています。詳しくは、LICENSEファイルをご覧ください。
 作者
