@@ -34,13 +34,17 @@
 2. アップロードされたデータに基づいてグラフが生成され、表示されます。
 
 **フォルダ構成**
-Graph-display-from-flask-csv/  
-&emsp; ├── app.py &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # メインアプリケーションファイル  
-&emsp; ├── requirements.txt &emsp;&emsp;&emsp;&emsp;&emsp; # 必要なパッケージ一覧  
-&emsp; ├── templates/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # HTMLテンプレートフォルダ  
-&emsp;&emsp; ├── upload.html &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # アップロードフォーム  
-&emsp;&emsp; └── plot.html &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # グラフ表示用テンプレート  
-&emsp; └── static/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # 静的ファイル（CSS, JS等）  
+project/
+│
+├── app.py                 &emsp;&emsp;&emsp;&emsp;   # メインアプリケーションファイル
+├── requirements.txt       &emsp; &emsp;      # 必要なパッケージ一覧
+├── templates/             &emsp;&emsp;         # HTMLテンプレートフォルダ
+│   ├── upload.html        &emsp;&emsp;&emsp;  # アップロードフォーム
+│   └── plot.html          &emsp;&emsp;&emsp;&emsp; # グラフ表示用テンプレート
+└── utils/                 &emsp;&emsp;           # ユーティリティファイル
+    ├── __init__.py        &emsp;&emsp;&emsp;    # 空ファイル（パッケージとして認識させる）
+    └── plot_utils.py      &emsp;&emsp;&emsp;    # プロット生成用の関数
+
 
 **ライセンス**
 このプロジェクトはMITライセンスのもとで公開されています。詳しくは、LICENSEファイルをご覧ください。
