@@ -36,14 +36,14 @@
 **フォルダ構成**
 project/
 │
-├── app.py                 &emsp;&emsp;&emsp;&emsp;   # メインアプリケーションファイル
-├── requirements.txt       &emsp; &emsp;      # 必要なパッケージ一覧
-├── templates/             &emsp;&emsp;         # HTMLテンプレートフォルダ
-│   ├── upload.html        &emsp;&emsp;&emsp;  # アップロードフォーム
-│   └── plot.html          &emsp;&emsp;&emsp;&emsp; # グラフ表示用テンプレート
-└── utils/                 &emsp;&emsp;           # ユーティリティファイル
-    ├── __init__.py        &emsp;&emsp;&emsp;    # 空ファイル（パッケージとして認識させる）
-    └── plot_utils.py      &emsp;&emsp;&emsp;    # プロット生成用の関数
+├── app.py               &emsp;&emsp;&emsp;&emsp;     # メインアプリケーションファイル
+├── requirements.txt     &emsp;&emsp;                 # 必要なパッケージ一覧
+├── templates/           &emsp;&emsp;&emsp;           # HTMLテンプレートフォルダ
+│   ├── upload.html      &emsp;&emsp;&emsp;&emsp;     # アップロードフォーム
+│   └── plot.html        &emsp;&emsp;&emsp;&emsp;     # グラフ表示用テンプレート
+└── utils/               &emsp;&emsp;&emsp;           # ユーティリティファイル
+    ├── __init__.py      &emsp;&emsp;&emsp;&emsp;     # 空ファイル（パッケージとして認識させる）
+    └── plot_utils.py    &emsp;&emsp;&emsp;&emsp;     # プロット生成用の関数
 
 
 **ライセンス**
