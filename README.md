@@ -34,14 +34,14 @@
 2. アップロードされたデータに基づいてグラフが生成され、表示されます。
 
 **フォルダ構成**
-Graph-display-from-flask-csv/
-│
-├── app.py                  # メインアプリケーションファイル
-├── requirements.txt        # 必要なパッケージ一覧
-├── templates/              # HTMLテンプレートフォルダ
-│   ├── upload.html         # アップロードフォーム
-│   └── plot.html           # グラフ表示用テンプレート
-└── static/                 # 静的ファイル（CSS, JS等）
+Graph-display-from-flask-csv/  
+├── app.py                   # メインアプリケーションファイル  
+├── requirements.txt         # 必要なパッケージ一覧  
+├── templates/               # HTMLテンプレートフォルダ  
+│   ├── upload.html          # アップロードフォーム  
+│   └── plot.html            # グラフ表示用テンプレート  
+└── static/                  # 静的ファイル（CSS, JS等）  
+
 
 **ライセンス**
 このプロジェクトはMITライセンスのもとで公開されています。詳しくは、LICENSEファイルをご覧ください。
