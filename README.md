@@ -35,13 +35,12 @@
 
 **フォルダ構成**
 Graph-display-from-flask-csv/  
-&emsp; ├── app.py &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # メインアプリケーションファイル  
-&emsp; ├── requirements.txt &emsp; # 必要なパッケージ一覧  
-&emsp; ├── templates/ &emsp;&emsp;&emsp;&emsp; # HTMLテンプレートフォルダ  
-&emsp; │ &emsp;&emsp; ├── upload.html &emsp;&emsp; # アップロードフォーム  
-&emsp; │ &emsp;&emsp; └── plot.html &emsp;&emsp;&emsp; # グラフ表示用テンプレート  
-&emsp; └── static/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # 静的ファイル（CSS, JS等）
-
+&emsp; ├── app.py &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # メインアプリケーションファイル  
+&emsp; ├── requirements.txt &emsp;&emsp;&emsp;&emsp;&emsp; # 必要なパッケージ一覧  
+&emsp; ├── templates/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # HTMLテンプレートフォルダ  
+&emsp;&emsp; ├── upload.html &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # アップロードフォーム  
+&emsp;&emsp; └── plot.html &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # グラフ表示用テンプレート  
+&emsp; └── static/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # 静的ファイル（CSS, JS等）  
 
 **ライセンス**
 このプロジェクトはMITライセンスのもとで公開されています。詳しくは、LICENSEファイルをご覧ください。
