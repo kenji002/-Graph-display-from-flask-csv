@@ -40,7 +40,7 @@ Graph-display-from-flask-csv/
 &emsp; ├── templates/ &emsp;&emsp;&emsp;&emsp; # HTMLテンプレートフォルダ  
 &emsp;&emsp;&emsp; ├── upload.html &emsp;&emsp; # アップロードフォーム  
 &emsp;&emsp;&emsp; └── plot.html &emsp;&emsp;&emsp; # グラフ表示用テンプレート  
-&emsp; └── static/ &emsp;&emsp;&emsp;&emsp; # 静的ファイル（CSS, JS等）
+&emsp; └── static/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # 静的ファイル（CSS, JS等）
 
 
 **ライセンス**
